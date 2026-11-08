@@ -1,0 +1,25 @@
+{
+  "name": "bobby-lyric-video",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "check": "tsc --noEmit && remotion compositions src/index.ts",
+    "render": "remotion render src/index.ts LyricVideo out/lyric-video.mp4"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.8.1",
+    "@remotion/cli": "4.0.521",
+    "@remotion/three": "4.0.521",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "remotion": "4.0.521",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.10",
+    "@types/react-dom": "19.1.7",
+    "@types/three": "^0.169.0",
+    "typescript": "5.9.2"
+  }
+}

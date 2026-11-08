@@ -1,0 +1,57 @@
+{
+  "note": "EXAMPLE: real tools/beat_grid.py output for a test drum loop at 120 BPM (bar 1 at 0.25 s) under the example vocal.",
+  "audio": "song.mp3",
+  "window": [
+    0.0,
+    9.88
+  ],
+  "bpm": 120.0,
+  "bpm_alternatives": [
+    {
+      "bpm": 59.97,
+      "relation": "half time",
+      "score": 0.374
+    },
+    {
+      "bpm": 240.54,
+      "relation": "double time",
+      "score": 0.315
+    }
+  ],
+  "tempo_evidence": 0.423,
+  "beats_per_bar": 4,
+  "bar_seconds": 2.0,
+  "first_downbeat": 0.2483,
+  "downbeat_confidence": 0.68,
+  "drift_ms": 0.1,
+  "drift_windows": 5,
+  "beats": [
+    0.2483,
+    0.7483,
+    1.2483,
+    1.7483,
+    2.2483,
+    2.7483,
+    3.2483,
+    3.7483,
+    4.2483,
+    4.7483,
+    5.2483,
+    5.7483,
+    6.2483,
+    6.7483,
+    7.2483,
+    7.7483,
+    8.2483,
+    8.7483,
+    9.2483,
+    9.7483
+  ],
+  "downbeats": [
+    0.2483,
+    2.2483,
+    4.2483,
+    6.2483,
+    8.2483
+  ]
+}

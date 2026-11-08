@@ -1,0 +1,161 @@
+{
+  "audio": "song.mp3",
+  "window": [
+    0.0,
+    9.88
+  ],
+  "method": "vocal stem (a clean test vocal, so demucs was skipped with --stem) + whisper word timestamps (mlx-community/whisper-large-v3-turbo), aligned to the given lyrics",
+  "note": "EXAMPLE. Invented lyrics, sung by a text-to-speech voice over a test drum loop. Seconds from the start of the audio file. coverage < 0.6 or a CHECK BY EAR note: listen. Lines with no start were not heard at all; time them by ear or drop them.",
+  "lines": [
+    {
+      "id": "L01",
+      "text": "The kettle hums a minor key",
+      "start": 1.98,
+      "end": 3.69,
+      "coverage": 1.0,
+      "timing": "vocal island",
+      "words": [
+        {
+          "text": "The",
+          "heard": true,
+          "start": 1.98,
+          "end": 2.1
+        },
+        {
+          "text": "kettle",
+          "heard": true,
+          "start": 2.1,
+          "end": 2.42
+        },
+        {
+          "text": "hums",
+          "heard": true,
+          "start": 2.42,
+          "end": 2.8
+        },
+        {
+          "text": "a",
+          "heard": true,
+          "start": 2.8,
+          "end": 2.9
+        },
+        {
+          "text": "minor",
+          "heard": true,
+          "start": 2.9,
+          "end": 3.18
+        },
+        {
+          "text": "key",
+          "heard": true,
+          "start": 3.18,
+          "end": 3.56
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "text": "I tap the table out of time",
+      "start": 4.64,
+      "end": 6.63,
+      "coverage": 1.0,
+      "timing": "vocal island",
+      "words": [
+        {
+          "text": "I",
+          "heard": true,
+          "start": 4.64,
+          "end": 4.78
+        },
+        {
+          "text": "tap",
+          "heard": true,
+          "start": 4.78,
+          "end": 5.08
+        },
+        {
+          "text": "the",
+          "heard": true,
+          "start": 5.08,
+          "end": 5.26
+        },
+        {
+          "text": "table",
+          "heard": true,
+          "start": 5.26,
+          "end": 5.64
+        },
+        {
+          "text": "out",
+          "heard": true,
+          "start": 5.64,
+          "end": 5.9
+        },
+        {
+          "text": "of",
+          "heard": true,
+          "start": 5.9,
+          "end": 6.1
+        },
+        {
+          "text": "time",
+          "heard": true,
+          "start": 6.1,
+          "end": 6.48
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "text": "The toaster pops and so do I",
+      "start": 7.82,
+      "end": 9.85,
+      "coverage": 1.0,
+      "timing": "vocal island",
+      "words": [
+        {
+          "text": "The",
+          "heard": true,
+          "start": 7.82,
+          "end": 7.94
+        },
+        {
+          "text": "toaster",
+          "heard": true,
+          "start": 7.94,
+          "end": 8.4
+        },
+        {
+          "text": "pops",
+          "heard": true,
+          "start": 8.4,
+          "end": 8.76
+        },
+        {
+          "text": "and",
+          "heard": true,
+          "start": 8.76,
+          "end": 8.98
+        },
+        {
+          "text": "so",
+          "heard": true,
+          "start": 8.98,
+          "end": 9.22
+        },
+        {
+          "text": "do",
+          "heard": true,
+          "start": 9.22,
+          "end": 9.4
+        },
+        {
+          "text": "I",
+          "heard": true,
+          "start": 9.4,
+          "end": 9.72
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# Python 3.11 on macOS (Apple Silicon). These are the versions the tools were made with.
+# Install into a venv:  python3 -m venv .venv && .venv/bin/pip install -r tools/requirements.txt
+# Also needs ffmpeg + ffprobe on PATH (for example: brew install ffmpeg).
+
+# lyric_sync.py (numpy and scipy are also all that beat_grid.py needs)
+mlx-whisper==0.4.3      # Apple Silicon only. Elsewhere: openai-whisper or faster-whisper, and edit transcribe()
+demucs==4.1.0           # vocal separation; downloads the htdemucs model on first run
+torch==2.14.0           # used by demucs
+numpy==2.4.6
+scipy==1.17.1
